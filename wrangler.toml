@@ -1,0 +1,23 @@
+name = "hono-app"
+compatibility_date = "2024-09-19"
+compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiODYwNmY4MDYtY2UxMC00ZTI4LTk2YWUtMzU5YmRiMTk0ODhkIiwidGVuYW50X2lkIjoiM2E0ZDI4ZmRhNWIwZjRhMDAwY2EzNmNmMzY5ZjkxMDlhNTUwZGY2MmI5ZDI1NGFkN2M1Y2QyZGUxNjhiNDQ4ZiIsImludGVybmFsX3NlY3JldCI6ImNjZjk0MTNhLTFmMjAtNDI1Yy05MmUzLTRlZDg3MjMxOGYyNCJ9.z13NaWp2otW2MawheXHkqNEARSmLjcmfCoTMns_LfKY"
+DIRECT_URL="postgresql://neondb_owner:6lwgWp9smbAa@ep-damp-unit-a5460zaf.us-east-2.aws.neon.tech/neondb?sslmode=require"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
